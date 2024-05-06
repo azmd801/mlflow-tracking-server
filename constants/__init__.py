@@ -1,0 +1,11 @@
+S3_ARTIFACT_KEY="s3://mnist-mlflow/Artifact/"
+
+BACKEND_STORE_URI="backend-store-uri sqlite:///my.db"
+
+DEFAULT_ARTIFACT_ROOT=S3_ARTIFACT_KEY
+
+ARTIFACTS_DESTINATION=S3_ARTIFACT_KEY
+
+HOST="0.0.0.0"
+
+PORT="5000"
